@@ -7,8 +7,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewprot" content="width=divice-width", initial-scale="1">
 <link rel="stylesheet" href="css/bootstrap.css">
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/carousel/">
 <link rel="stylesheet" href="css/custom.css">
 <title>JSP 게시판 웹 사이트</title>
 </head>
