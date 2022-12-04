@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="EUC-KR"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div>
-		´Ù½Ã ¼öÁ¤ÇÕ´Ï´Ù. 
+		ë‹¤ì‹œ ìˆ˜ì •í•©ë‹ˆë‹¤. 
 	</div>
 <!-- 	<script>
 		location.href = 'main.jsp'
