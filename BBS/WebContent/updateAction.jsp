@@ -40,7 +40,7 @@
 			script.println("</script>");
 		}
 		Bbs bbs = new BbsDAO().getBbs(bbsID);
-		if(!userID.equals(bbs.getUserID())) {
+		if(session.getAttribute("userID") == null || !userID.equals(bbs.getUserID())) {
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
 			script.println("alert('권한이 없습니다. ')");
