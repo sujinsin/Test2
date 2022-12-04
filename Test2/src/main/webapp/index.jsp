@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div>
-		환영합니다 고갱님
+		환영합니다 고갱님 한번 수정해보자 
 	</div>
 <!-- 	<script>
 		location.href = 'main.jsp'

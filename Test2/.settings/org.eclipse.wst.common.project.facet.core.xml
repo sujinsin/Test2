@@ -3,4 +3,5 @@
   <runtime name="Test2"/>
   <installed facet="java" version="1.8"/>
   <installed facet="jst.web" version="2.5"/>
+  <installed facet="jst.jaxrs" version="2.0"/>
 </faceted-project>
