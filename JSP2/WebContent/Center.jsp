@@ -11,11 +11,8 @@
 	<table width="600">
 		<tr height="400">
 			<!-- 배너이미지 -->
-			<td colspan="2" align="center">
+			<td align="center">
 				<img alt="배너" src="img/banner1.jsp" width="500" height="350" />
-			</td>
-			<td colspan="4" align="center">
-				<font size="10">낭만 캠핑</font>
 			</td>
 		</tr>
 	</table>
