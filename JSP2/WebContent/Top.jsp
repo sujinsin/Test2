@@ -20,7 +20,7 @@
 		</tr>
 		<tr height="50">
 			<td width="130" align="center"> 텐트 </td>
-			<td width="130" align="center"> 텐트 </td>
+			<td width="130" align="center"> 용품 </td>
 			<td width="130" align="center"> 텐트 </td>
 			<td width="130" align="center"> 텐트 </td>
 			<td width="130" align="center"> 텐트 </td>
