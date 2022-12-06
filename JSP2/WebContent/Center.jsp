@@ -12,7 +12,7 @@
 		<tr height="400">
 			<!-- 배너이미지 -->
 			<td align="center">
-				<img alt="배너" src="img/banner1.jsp" width="500" height="350" />
+				<img alt="배너" src="img/banner1.jpg" width="500" height="350" />
 			</td>
 		</tr>
 	</table>
