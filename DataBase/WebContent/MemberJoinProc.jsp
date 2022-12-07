@@ -1,5 +1,9 @@
+<%@page import="model.MemberDAO"%>
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,9 +24,9 @@
 	for(int i = 0 ; i < hobby.length; i ++) {
 		
 		if(i < hobby.length - 1)
-			texthobby = hobby[i] + ", ";
+			texthobby += hobby[i] + ", ";
 		else
-			texthobby = hobby[i];
+			texthobby += hobby[i];
 	}
 %>
 
@@ -33,9 +37,19 @@
 	</jsp:useBean>
 	<%
 		mbean.setHobby(texthobby); //기존 취미는 주소번지가 저장되기에 위에 배열의 내용을 하나의 스트링으로 저장한 변수를 다시 입력해주면 됨. 아니면 하비가 이상하ㅡㄴ 값으로 들어감. 
+	
+		// 데이터 베이스 클래스 객체 생성 
+		
+		MemberDAO mDAO = new MemberDAO();
+		int result = mDAO.insertMember(mbean);
+		
+		
+		if(result > 0) {
+			out.write(" 회원가입이 완료 되었습니다. ");
+		}else {
+			out.write(" 회원가입에 실패하셨습니다. ");
+		}
 	%>
 	
-	<h2>당신의 아이디 = <%= mbean.getId() %></h2>
-	<h2>당신의 취미는 = <%= mbean.getHobby() %></h2>
 </body>
 </html>

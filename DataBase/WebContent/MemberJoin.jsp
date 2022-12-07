@@ -43,11 +43,11 @@
 			<tr height="50">
 				<td width="150" align="center"> 당신의 직업은 </td>
 				<td width="350" align="center">
-					<select>
-						<option type="checkbox" name="hobby" value="캠핑">캠핑 &nbsp;&nbsp;</option>
-						<option type="checkbox" name="hobby" value="등산">등산 &nbsp;&nbsp;</option>
-						<option type="checkbox" name="hobby" value="영화">영화 &nbsp;&nbsp;</option>
-						<option type="checkbox" name="hobby" value="독서">독서 &nbsp;&nbsp;</option>
+					<select name="job">
+						<option value="교사" >교사 &nbsp;&nbsp;</option>
+						<option value="변호사">변호사 &nbsp;&nbsp;</option>
+						<option value="의사">의사 &nbsp;&nbsp;</option>
+						<option value="기술사">기술사 &nbsp;&nbsp;</option>
 					</select>
 				</td>
 			</tr>	
